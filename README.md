@@ -37,7 +37,7 @@ git commit -m "A message describing changes since the last commit"
 
 ## Part 4A: `git push`
 1. **Both Partners**: Go to your personal GitHub fork of the repo. You will notice that even if you refresh the page, you will not see Partner A's commit or any of the changes you have made so far. Currently Partner A has only been making changes to their local repository.
-2. **Partner A**: To see the commit in their GitHub remote, Partner A must push those changes. To do so, type the `git push` command, followed by the name of the remote you want to push changes to and then the branch to push to (in junior phase, you will almost always push to the master branch, but you can push to other branches as well).
+2. **Partner A**: To see the commit in their GitHub remote, Partner A must push those changes. To do so, type the `git push` command, followed by the name of the remote you want to push changes to and then the branch to push to (in junior phase, you will almost always push to the main branch, but you can push to other branches as well).
 ```bash
 git push origin main
 ```
@@ -46,7 +46,7 @@ git push origin main
 
 ## Part 4B: `git pull`
 1. **Partner B**: Refresh your GitHub page. Do you see Partner A’s commits? What!?! No changes. No new commits.
-2. **Partner B**: To access Partner A’s work, Partner B should pull from Partner A's remote repository. Use the name you assigned to Partner A's repo when you added it as a remote. Again, we specify that we want to pull from the master branch.
+2. **Partner B**: To access Partner A’s work, Partner B should pull from Partner A's remote repository. Use the name you assigned to Partner A's repo when you added it as a remote. Again, we specify that we want to pull from the main branch.
 ```bash
 git pull partner main 
 // Replace "partner" with the name of your partner's branch
